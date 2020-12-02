@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--CSS links-->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <title>Practice 2</title>
+  </head>
+  <body>
+<section class="form1">
+    <div class="container">
+
+
+      <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">sports</li>
+          </ol>
+      </nav>
+
+          
+        <form>
+
+          <div class="mb-3">
+            <label for="s_email" class="form-label">Email address</label>
+            <input type="email" class="form-control s_email" id="s_email" name="s_email" placeholder="Enter your Email Address" required>
+          </div>
+
+          <div class="mb-3">
+            <label for="password1" class="form-label">Password</label>
+            <input type="password" class="form-control password1" id="password1" name="password1" placeholder="Enter your Password" required>
+          </div>
+
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+          </div>
+
+          <div class="mb-3">
+            <label for="formfile" class="form-label">Insert a Image</label>
+            <input class="form-control" type="file" id="formfile">
+          </div>
+
+          <div class="mb-3">
+            <label for="color" class="form-label">chose a color</label>
+            <input class="form-control form-control-color" type="color" id="color" value="red">
+          </div>
+
+          <div class="mb-3">
+
+            <select class="form-select" aria-label="Default select">
+            <option selected>Select a item</option>
+            <option value="1">Ham Burger</option>
+            <option value="2">Beef Burger</option>
+            <option value="3">Chicken Burger</option>
+          </select>
+
+          </div>
+
+          <div class="mb-3">
+
+            <select class="form-select" multiple aria-label="multiple select example">
+            <option selected>Select a item</option>
+            <option value="1">Ham Burger</option>
+            <option value="2">Beef Burger</option>
+            <option value="3">Chicken Burger</option>
+            <option value="4">Beer</option>
+            <option value="5">Pizza</option>
+          </select>
+
+          </div>
+
+          <button type="submit" class="btn btn-danger">Submit</button>
+
+        </form>
+
+    </div>
+
+    </section>
+
+
+<section class="form">
+
+  <div class="container">
+      <form class="row g-3">
+        
+          <div class="col-md-6">
+           <label for="email1" class="form-label">Email Adress</label>
+           <input type="email" class="form-control email1" id="email1" name="email1" placeholder="Enter your email Address" required>
+          </div>
+
+          <div class="col-md-6">
+           <label for="password2" class="form-label">Password</label>
+           <input type="password" class="form-control password2" id="password2" name="password1" placeholder="Enter your Password" required>
+          </div>
+
+          <div class="col-md-12">
+           <label for="adress"  class="form-label">ADDRESS</label>
+           <input type="text" class="form-control adress" id="adress" name="adress" placeholder="Enter your Address" required>
+          </div>
+
+          <div class="col-md-12">
+           <label for="adress2" class="form-label">ADDRESS 2</label>
+           <input type="text" class="form-control adress2" id="adress2" name="adress2" placeholder="Enter your Address" required>
+          </div>
+
+          <div class="col-md-6">
+           <label for="city" class="form-label">City</label>
+           <input type="text" class="form-control city" id="city" name="city" placeholder="Enter your city name" required>
+          </div>
+
+          <div class="col-md-4">
+
+           <label for="state" class="form-label">STATE</label>
+
+           <select id="state" class="form-select">
+             
+              <option selected>Chose state</option>
+              <option>Dhaka</option>
+              <option>Gazipur</option>
+              <option>khulna</option>
+              <option>Rangpur</option>
+              <option>Rajsahi</option>
+              <option>Barishal</option>
+
+           </select>
+
+          </div>
+
+          <div class="col-md-2">
+           <label for="zip" class="form-label">Zip-code</label>
+           <input type="text" class="form-control zip" id="zip" name="zip" placeholder="Zip-Code">
+          </div>
+
+          <div class="col-md-2">
+            <button type="submit" class="btn btn-primary">Sign up</button>
+          </div>
+
+      </form>
+    </div>
+
+
+  
+
+</section>
+
+
+<section class="form2">
+
+  <div class="container">
+      <form class="row g-3 needs-validation" novalidate>
+        
+          <div class="col-md-6">
+           <label for="email1" class="form-label">Email Adress</label>
+           <input type="email" class="form-control email1" id="email1" name="email1" placeholder="Enter your email Address" required >
+           <div class="valid-feedback">Looks Good!</div>
+           <div class="invalid-feedback">Write valid mail.</div>
+          </div>
+
+          <div class="col-md-6">
+           <label for="password2" class="form-label">Password</label>
+           <input type="password" class="form-control password2" id="password2" name="password1" placeholder="Enter your Password" required>
+            <div class="valid-feedback">Looks Good!</div>
+           <div class="invalid-feedback">Insert password.</div>
+          </div>
+
+          <div class="col-md-12">
+           <label for="adress"  class="form-label">ADDRESS</label>
+           <input type="text" class="form-control adress" id="adress" name="adress" placeholder="Enter your Address" required>
+
+            <div class="valid-feedback">Looks Good!</div>
+           <div class="invalid-feedback">Write valid Address.</div>
+          </div>
+
+          <div class="col-md-12">
+           <label for="adress2" class="form-label">ADDRESS 2</label>
+           <input type="text" class="form-control adress2" id="adress2" name="adress2" placeholder="Enter your Address" required>
+           <div class="valid-feedback">Looks Good!</div>
+           <div class="invalid-feedback">Write valid Address.</div>
+          </div>
+
+          <div class="col-md-6">
+           <label for="city" class="form-label">City</label>
+           <input type="text" class="form-control city" id="city" name="city" placeholder="Enter your city name" required>
+           <div class="valid-feedback">Looks Good!</div>
+           <div class="invalid-feedback">Write valid City.</div>
+          </div>
+
+          <div class="col-md-4">
+
+           <label for="state" class="form-label">STATE</label>
+
+           <select id="state" class="form-select">
+             
+              <option selected>Chose state</option>
+              <option>Dhaka</option>
+              <option>Gazipur</option>
+              <option>khulna</option>
+              <option>Rangpur</option>
+              <option>Rajsahi</option>
+              <option>Barishal</option>
+
+           </select>
+
+          </div>
+
+          <div class="col-md-2">
+           <label for="zip" class="form-label">Zip-code</label>
+           <input type="text" class="form-control zip" id="zip" name="zip" placeholder="Zip-Code">
+          </div>
+
+          <div class="col-md-2">
+            <button type="submit" class="btn btn-primary">Sign up</button>
+          </div>
+
+      </form>
+    </div>
+
+</section>
+
+
+<section class="faq">
+  <div class="container">
+      
+    <div class="accordion" id="accordion1">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="heading1">
+      <button class="accordion-button" type="button" data-toggle="collapse" data-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
+        Accordion Item #1
+      </button>
+    </h2>
+    <div id="collapse1" class="accordion-collapse collapse" aria-labelledby="heading1" data-parent="#accordion1">
+      <div class="accordion-body">
+        <strong>This is the first item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="heading2">
+      <button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#collapse2" aria-expanded="true" aria-controls="collapse2">
+        Accordion Item #2
+      </button>
+    </h2>
+    <div id="collapse2" class="accordion-collapse collapse show" aria-labelledby="heading2" data-parent="#accordion1">
+      <div class="accordion-body">
+        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="heading3">
+      <button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+        Accordion Item #3
+      </button>
+    </h2>
+    <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3" data-parent="#accordion1">
+      <div class="accordion-body">
+        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+</div>
+
+  </div>
+</section>
+
+
+  <div class="container">
+    <div class="alert alert-danger alert-dismissible fade show" role="alert" >
+     <a href="http://coderjoar.com" class="alert-link">Faysal ahmed joar</a>
+      <button type="button" class="btn-close" data-dismiss="alert" aria-label="Close"></button>
+    </div>
+  </div>
+<div class="container">
+    <h1>Faysal Ahmed <span class="badge bg-danger">Joar</span></h1>
+
+</div>
+    
+
+
+
+
+
+
+
+
+    <!--JS Links-->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
